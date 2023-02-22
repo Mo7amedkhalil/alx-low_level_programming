@@ -3,15 +3,14 @@
 /**
   * print_last_digit - prints last digit
   * @n: input number
-  * @s: last digit of n
+  * @s:last digit of n
   *
   * Return: last digit value
   */
 
 int print_last_digit(int n)
 {
-	int s;
-	
+	int s;	
 	if (n < 0)
 		n = -n;
 	s = n % 10;
