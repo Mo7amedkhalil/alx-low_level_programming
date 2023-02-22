@@ -15,22 +15,37 @@ void times_table(void)
 			s = i * j;
 
 			if (s == 0)
-				_putchar(s + '0');
+			{
+				if (j > 0)
+				{
+					_putchar(',');
+					_putchar(' ');
+					_putchar(' ');
+				}
+					_putchar(s + '0')
+			}
 			else if(s < 10 && s != 0)
 			{
-				_putchar(',');
-				_putchar(' ');
-				_putchar(' ');
-				_putchar(s + '0');
+				if (j > 0)
+				{
+					_putchar(',');
+					_putchar(' ');
+					_putchar(' ');
+				}
+					_putchar(s + '0');
 			}
 			else if (s >= 10)
 			{
-				_putchar(',');
-				_putchar(' ');
-				_putchar((s / 10) + '0');
-				_putchar((s % 10) + '0');
+				if (j > 0)
+				{
+					_putchar(',');
+					_putchar(' ');
+				}
+					_putchar((s / 10) + '0');
+				putchar((s % 10) + '0');
 			}
-		}
+				
 		_putchar('\n');
+		}
 	}
 }
