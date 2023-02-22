@@ -1,11 +1,10 @@
 #include "main.h"
 
 /**
-  * main - check the code
+  * main - print alphabets in lower case
   *
   * Return: Always 0.
   */
-
 int main(void)
 {
     print_alphabet();
