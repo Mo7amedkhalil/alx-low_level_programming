@@ -4,6 +4,10 @@
   * times_table - function that prints the 9 times table
   */
 
+/**
+  * space - function for formating purposes
+  */
+
 void space(void)
 {
 	_putchar(',');
