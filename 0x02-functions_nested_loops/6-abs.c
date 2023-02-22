@@ -3,6 +3,7 @@
 
 /**
   * _abs - function that calculates the absolute
+  * @n: input number
   *
   * Return: absolute num
   */
