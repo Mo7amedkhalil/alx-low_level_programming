@@ -45,5 +45,6 @@ void times_table(void)
 				_putchar((s % 10) + '0');
 			}
 		}
-	_putchar('\n');
+		_putchar('\n');
+	}
 }
