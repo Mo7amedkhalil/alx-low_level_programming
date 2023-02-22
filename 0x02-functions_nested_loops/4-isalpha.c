@@ -4,7 +4,7 @@
   * _isalpha - program that checks characters
   * @c: input character
   *
-  * Return: 1 if success , else 
+  * Return: 1 if success, else 
   */
 
 int _isalpha(int c)
