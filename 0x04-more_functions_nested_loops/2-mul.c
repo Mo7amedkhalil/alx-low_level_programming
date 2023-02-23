@@ -5,7 +5,7 @@
   * @a: first int
   * @b: second int
   *
-  * return: the sum of two integers
+  * Return: the sum of two integers
   */
 
 int mul(int a, int b)
