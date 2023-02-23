@@ -2,12 +2,14 @@
 
 /**
   * main - FizzBuzz
+  *
+  * Return: Always 0
   */
 int main(void)
 {
 	int i, a, b;
 
-	for (i = 0; i <= 100 ; i++)
+	for (i = 1; i <= 100 ; i++)
 	{
 		a = i % 3;
 		b = i % 5;
@@ -24,5 +26,6 @@ int main(void)
 		else
 			printf("%d ", i);
 	}
+	printf("\n");
 	return (0);
 }
