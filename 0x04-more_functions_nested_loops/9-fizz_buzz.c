@@ -1,11 +1,8 @@
 #include <stdio.h>
 
 /**
-  * main - Fizz-Buzz
-  *
-  * Return: Always 0
+  * main - FizzBuzz
   */
-
 int main(void)
 {
 	int i, a, b;
