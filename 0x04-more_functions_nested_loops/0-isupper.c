@@ -1,4 +1,5 @@
 #include "main.h"
+#include <stdio.h>
 
 /**
   * _isupper - checks chars if in upper case
@@ -9,16 +10,5 @@
 
 int _isupper(int c)
 {
-	int i, j;
-
-	j = 0;
-	for (i = 'A'; i < 'Z'; i++)
-	{
-		if (i == c)
-			j = 1;
-	}
-	if (j == 1)
-		return (1);
-	else
-		return (0);
+	return (isupper(c));
 }
