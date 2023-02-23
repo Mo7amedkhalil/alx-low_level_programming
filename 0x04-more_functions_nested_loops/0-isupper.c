@@ -10,8 +10,8 @@
 int _isupper(int c)
 {
 	int i, j;
+
 	j = 0;
-	
 	for (i = 'A'; i < 'Z'; i++)
 	{
 		if (i == c)
