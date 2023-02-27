@@ -6,13 +6,13 @@
   */
 
 /**
-  * sstrlen - function to get length of string
+  * _strlen- function to get length of string
   * @s: input string
   *
   * Return: string length
   */
 
-int sstrlen(char *s)
+int _strlen(char *s)
 {
 	int l = 0;
 
@@ -28,10 +28,10 @@ void puts_half(char *str)
 {
 	int i, n;
 
-	if ((sstrlen(str) % 2) != 0)
-		n = ((sstrlen(str) + 1) / 2);
+	if ((_strlen(str) % 2) != 0)
+		n = ((_strlen(str) + 1) / 2);
 	else
-		n = (sstrlen(str) / 2);
+		n = (_strlen(str) / 2);
 	for (i = n; str[i] != '\0'; i++)
 	{
 		_putchar(str[i]);
