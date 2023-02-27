@@ -1,11 +1,6 @@
 #include "main.h"
 
 /**
-  * puts_half - function that prints half of a strin
-  * @str: string to be printed
-  */
-
-/**
   * _strlen - function that returns the length of a string
   * @s: character pointer
   *
@@ -23,6 +18,11 @@ int _strlen(char *s)
 	}
 	return (l);
 }
+
+/**
+  * puts_half - function that prints half of a strin
+  * @str: string to be printed
+  */
 
 void puts_half(char *str)
 {
