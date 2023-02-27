@@ -7,10 +7,15 @@
 
 void print_rev(char *s)
 {
-	int x = _strlen(*s);
+	int x = 0;
 	int i;
-	
-	for (i = x-1; x > 0; x++)
+
+	while (*s != '\0')
+	{
+		x++;
+		s++;
+	}
+	for (i = x; x > 0; x--)
 	{
 		_putchar(*s--);
 	}
