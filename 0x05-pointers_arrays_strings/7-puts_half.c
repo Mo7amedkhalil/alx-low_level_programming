@@ -6,7 +6,7 @@
   */
 
 /**
-  * _strlen- function to get length of string
+  * _strlen - function to get length of string
   * @s: input string
   *
   * Return: string length
