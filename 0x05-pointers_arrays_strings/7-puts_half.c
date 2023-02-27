@@ -6,13 +6,13 @@
   */
 
 /**
-  * _strlen - function to calculate string length
-  * @s: input string
+  * _strlen - function that returns the length of a string
+  * @s: character pointer
   *
-  * Return: lengtg od the string
+  * Return: l
   */
-  
-  int _strlen(char *s)
+
+int _strlen(char *s)
 {
 	int l = 0;
 
