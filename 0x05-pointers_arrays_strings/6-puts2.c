@@ -11,15 +11,14 @@ void puts2(char *str)
 	int x = 0;
 	char *c = str;
 	int i;
-	
-        while (*c != '\0')
+	while (*c != '\0')
 	{
                 c++;
                 l++;
-        }
+	}
         x = l - 1;
-        for (i = 0 ; i <= x ; i++)
-        {
+	for (i = 0 ; i <= x ; i++)
+	{
 		if (i % 2 == 0)
 		{
 			_putchar(str[i]);
