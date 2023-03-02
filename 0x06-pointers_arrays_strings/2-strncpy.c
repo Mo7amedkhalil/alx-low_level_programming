@@ -5,7 +5,6 @@
   * @src: input string
   * @dest: destination file
   * @n: maximum num of bytes
-  *
   * Return: string at dest
   */
 
