@@ -11,17 +11,20 @@ char *cap_string(char *str)
 	int c = 32;
 	int s[] = {',', ';', '.', '?', '"',
 		 '(', ')', '{', '}', ' ', '\n', '\t'};
+
 	for (i = 0; str[i] != '\0'; i++)
 	{
 		if (str[i] >= 'a' && str[i] <= 'z')
 			str[i] = str[i] - c;
 		c = 0;
 		for (j = 0; s[j] <= 12; j++)
+		{
 			if (str[i] == s[j])
 			{
 				j = 12;
 				c = 32;
 			}
+		}
 	}
 	return (str);
 }
