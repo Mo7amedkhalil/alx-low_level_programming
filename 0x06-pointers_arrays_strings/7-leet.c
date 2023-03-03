@@ -13,7 +13,7 @@ char *leet(char *x)
 	char y1[] = "aAeEoOtTlL";
 	char y2[] = "4433007711";
 
-	for (i = 0; x[i] < '\0'; i++)
+	for (i = 0; x[i] != '\0'; i++)
 	{
 		for (j = 0; j < 10; j++)
 		{
