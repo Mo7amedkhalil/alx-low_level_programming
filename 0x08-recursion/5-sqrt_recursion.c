@@ -25,7 +25,7 @@ int squareRoot(int x, int i)
 {
 	if (i > x)
 		return (-1);
-	if (i * i == n)
+	if (i * i == x)
 		return (i);
 	return (x, squareRoot(x, i + 1));
 }
