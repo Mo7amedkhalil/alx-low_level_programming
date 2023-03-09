@@ -9,7 +9,7 @@ int theprime(int x, int y);
 
 int is_prime_number(int n)
 {
-	if (n <=1)
+	if (n <= 1)
 		return (0);
 	return (theprime(n, n - 1));
 }
