@@ -1,7 +1,5 @@
 #include "main.h"
 
-int theprime(int x, int y);
-
 /**
   * is_prime_number - checks if prime number
   * @n: input num
