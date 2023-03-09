@@ -17,7 +17,7 @@ int is_prime_number(int n)
 /**
   * the prime - checks if prime
   * @x: the num
-  * @s: iterator
+  * @y: iterator
   *
   * Return: the prime num
   */
@@ -28,5 +28,5 @@ int theprime(int x, int y)
 		return (1);
 	if (x % y == 0 && y > 0)
 		return (0);
-	return (theprime(x, y-1));
+	return (theprime(x, y - 1));
 }
