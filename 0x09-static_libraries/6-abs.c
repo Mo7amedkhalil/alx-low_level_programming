@@ -1,10 +1,14 @@
 #include "main.h"
-#include <stdio.h>
 #include <stdlib.h>
-#include <ctype.h>
-#include <string.h>
 
-int _isalpha(int c)
+/**
+  * _abs - function that calculates the absolute
+  * @n: input number
+  *
+  * Return: absolute num
+  */
+
+int _abs(int n)
 {
-	return isalpha(c);
+	return (abs(n));
 }

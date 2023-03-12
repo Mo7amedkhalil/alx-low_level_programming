@@ -1,10 +1,19 @@
 #include "main.h"
-#include <stdio.h>
-#include <stdlib.h>
-#include <ctype.h>
-#include <string.h>
+
+
+/**
+  * _isupper - checks chars if in upper case
+  * @c: the input char
+  *
+  * Return: 1 if upper, 0 otherwise
+  */
 
 int _isupper(int c)
 {
-	return (c >= 'A' && c <= 'Z');
+	int i ;
+
+	if (c >= 'A' && c <= 'Z')
+		return (1);
+	else
+		return (0);
 }
