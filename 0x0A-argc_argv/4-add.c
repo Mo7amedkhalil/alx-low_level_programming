@@ -12,7 +12,7 @@
 int main(int argc, char *argv[])
 {
 	int i, sum = 0;
-	char *f;
+	char c[] = "ERROR", *f;
 
 	if (argc > 1)
 	{
@@ -23,7 +23,7 @@ int main(int argc, char *argv[])
 			{
 				if (*f < 47 || *f > 57)
 				{
-					printf("ERROR\n");
+					printf("%s\n", c);
 					return (1);
 				}
 				f++;
