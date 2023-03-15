@@ -31,10 +31,12 @@ char *str_concat(char *s1, char *s2)
 		while (s2[s2l] != '\0')
 			s2l++;
 	}
-
 	newstr = malloc(sizeof(char) * (s1l + s2l + 1));
 	if (newstr == NULL)
 		return (NULL);
+
+	for (i = 0; i < s1l; i++)
+		newstr[i] = s1[i];
 
 	for (j = 0; j < s2l; j++)
 		newstr[i + j] = s2[j];
