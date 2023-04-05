@@ -18,6 +18,6 @@ size_t print_listint(const listint_t *h)
 		h = h->next;
 		c++;
 	}
-	return (0);
+	return (c);
 }
 
