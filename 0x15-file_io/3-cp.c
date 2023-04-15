@@ -47,7 +47,7 @@ int main(int ac, char *av[])
  */
 void myExit(char *message, char *filename, int code, int fd)
 {
-if (code == 101 || code == 102)
+	if (code == 101 || code == 102)
 	{
 		dprintf(STDERR_FILENO, "%s%i\n", "Error: Can't close fd ", fd);
 		exit(100);
