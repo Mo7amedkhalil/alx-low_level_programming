@@ -10,7 +10,7 @@ int main(int ac, char *av[])
 {
 	int from_fd, to_fd, read_n, n_write, from_closed, to_closed;
 	char buffer[1024];
-	
+
 	if (ac != 3)
 		myExit("Usage: cp file_from file_to", "", 97, 0);
 	from_fd = open(av[1], O_RDONLY);
